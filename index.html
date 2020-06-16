@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3e6c94">
+    <link rel="stylesheet" href="style.css">
+    <title>Heartbeat Sensor</title>
+</head>
+<body>
+<header>
+    <h1>Heartbeat Sensor</h1>
+</header>
+<main>
+    <p>
+        This is a simple static webpage created to test a simple idea
+        of providing an interface that can measure your heartbeat using
+        the camera of your notebook or mobile device.
+    </p>
+    <p>
+        To test it, place your finger on your device's camera and wait
+        for the heartbeat value to stabilize!
+    </p>
+    <div><p id="color-r"></p> <p id="color-g"></p> <p id="color-b"></p></div>
+    <div><p id="heartbeat"></p></div>
+    <div><p id="beat-label"</div>
+    <div><video id="video" width="200" height="200" autoplay></video></div>
+    <div><canvas hidden id="canvas" width="300" height="300"></canvas></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

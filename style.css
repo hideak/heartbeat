@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    background-color: #ff3333;
+    color: white;
+    line-height: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+p#heartbeat, p#beat-label {
+    font-weight: bold;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+}
+
+video {
+    margin: 10px;
+}
